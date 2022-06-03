@@ -17,8 +17,6 @@ public class Main {
             try (ObjectOutputStream fww = new ObjectOutputStream(new FileOutputStream("D://14.txt"))) {
                 fww.writeObject(did);
                 fww.writeInt(x);
-
-                fww.writeInt(x);
                 System.out.println("Ok");
 
             } catch (IOException ex) {

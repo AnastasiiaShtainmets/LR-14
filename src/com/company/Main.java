@@ -45,6 +45,7 @@ public class Main {
         float x;
 
         public Formula(float x) {
+
             this.x = x;
         }
 
